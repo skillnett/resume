@@ -50,6 +50,11 @@ p {
 	margin: 40px 0;
 }
 
+.social a {
+	display: inline-block;
+	margin-right: 20px;
+}
+
 .email {
 	color: #AA076B;
 	text-decoration: none;
@@ -65,7 +70,6 @@ i {
 	text-align: center;
 	font-size: 3rem;
 	color: #495057;
-	margin-right: 20px;
 	transition: .1s;
 }
 

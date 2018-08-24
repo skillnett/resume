@@ -27,10 +27,14 @@ $('.menu-btn').on('click', function(e) {
     e.preventDefault();
     $(this).toggleClass('menu-btn-active');
     $('.main-menu').toggleClass('main-menu-active');
+
+     $('.header-wrapper').toggleClass('main-menu-active');
 });
 
 $('.smooth').on('click', function(e) {
     e.preventDefault();
     $('.menu-btn').toggleClass('menu-btn-active');
     $('.main-menu').toggleClass('main-menu-active');
+
+     $('.header-wrapper').toggleClass('main-menu-active');
 });

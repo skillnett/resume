@@ -180,7 +180,7 @@
 		display: block;
 		width: 100%;
 		height: 60px;
-		background: #fbfce8;
+		background: #f4f4f4;
 		box-shadow: 0 0 10px rgba(0,0,0,0.5);
 	}
 
@@ -191,7 +191,7 @@
 		background: #96006b;
 		border-radius: 50%;
 		position: relative;
-		box-shadow: 0 0 10px rgba(0,0,0,0.5);
+		box-shadow: 0 0 10px rgba(0,0,0,0.9);
 	}
 
 	.menu-btn span,

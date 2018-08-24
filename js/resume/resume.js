@@ -20,3 +20,17 @@ $("nav").on("click","a", function (event) {
             top = $(id).offset().top;
         $('body,html').animate({scrollTop: top}, 600);
     });
+
+// brger menu action
+
+$('.menu-btn').on('click', function(e) {
+    e.preventDefault();
+    $(this).toggleClass('menu-btn-active');
+    $('.main-menu').toggleClass('main-menu-active');
+});
+
+$('.smooth').on('click', function(e) {
+    e.preventDefault();
+    $('.menu-btn').toggleClass('menu-btn-active');
+    $('.main-menu').toggleClass('main-menu-active');
+});

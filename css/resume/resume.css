@@ -218,6 +218,7 @@ i:hover {
 footer {
 	margin-left: 25%;
 	padding: 0 3rem;
+	max-width: 980px;
 }
 
 .footer-social {

@@ -126,6 +126,19 @@
 		margin: 0 auto;
 		max-width: 90%;
 	}
+
+	footer {
+		margin: 0;
+		padding: 0;
+	}
+	
+	.footer-social {
+		justify-content: center;
+	}
+
+	.footer-social span {
+		display: none;
+	}
 }
 
 
@@ -289,5 +302,9 @@
 
 	i {
 	font-size: 2.2rem;
+	}
+
+	.project-img {
+		width: 90%;
 	}
 }

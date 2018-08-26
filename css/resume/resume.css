@@ -198,3 +198,40 @@ i:hover {
 	width: 100%;
 }
 
+#add-info ul {
+	margin-left: 20px;
+}
+
+#add-info ul li {
+	color: #919296;
+}
+
+#add-info h3 {
+	margin-top: 35px;
+	margin-bottom: 15px;
+}
+
+.eng-lvl {
+	padding-bottom: 20px;
+}
+
+footer {
+	margin-left: 25%;
+	padding: 0 3rem;
+}
+
+.footer-social {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.links a {
+	display: inline-block;
+	margin: 10px;
+}
+
+.links i {
+	font-size: 2rem;
+}
+

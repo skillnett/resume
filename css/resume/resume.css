@@ -32,6 +32,7 @@ h1 {
 h2 {
 	font-size: 2.5rem;
 	color: #343A40;
+	font-weight: bold;
 }
 
 h3 {
@@ -47,12 +48,40 @@ h4 {
 
 p {
 	color: #919296;
+}
+
+.target {
 	margin: 40px 0;
+}
+
+.target::before {
+	color: #495057;
+	content: 'My purpose:';
+	font-size: 1.2rem;
+	display: block;
 }
 
 .social a {
 	display: inline-block;
 	margin-right: 20px;
+}
+
+.social-other {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+}
+
+.social-other p {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 10px 0;
+}
+
+.social-other p i {
+	font-size: 2rem;
+	margin-right: 15px;
 }
 
 .email {
@@ -77,8 +106,16 @@ i:hover {
 	color: #AA076B;
 }
 
-/* adout me section */
+.education {
+	margin-top: 50px;
+}
 
-#about-me {
-	
+.education p {
+	display: block;
+}
+
+.education p span {
+	color: #AA076B;
+	text-align: right;
+	font-size: 0.9rem;
 }

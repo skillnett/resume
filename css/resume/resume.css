@@ -79,6 +79,11 @@ p {
 	margin: 10px 0;
 }
 
+.social-other span {
+	color: #AA076B;
+	margin-left: 3px;
+}
+
 .social-other p i {
 	font-size: 2rem;
 	margin-right: 15px;
@@ -119,3 +124,77 @@ i:hover {
 	text-align: right;
 	font-size: 0.9rem;
 }
+
+.languages-tools {
+	margin-top: 40px;
+}
+
+.languages-tools i{
+	font-size: 1.2rem;
+	margin-right: 15px;
+}
+
+.languages-tools h4 {
+	margin-bottom: 10px;
+}
+
+.languages-tools p{
+	font-size: 1.2rem;
+}
+
+.skills-img {
+	margin-top: 50px;
+}
+
+.skills-img i{
+	font-size: 2rem;
+	margin-right: 5px;
+}
+
+.portfolio {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 80px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.project-info {
+	margin-right: 20px; 
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.project-info h3 {
+	margin-bottom: 30px;
+}
+
+.project-info a {
+	display: block;
+	text-decoration: none;
+	color: #343A40;
+	margin-top: 20px;
+	width: 150px;
+	height: 40px;
+	border: 1px solid #343A40;
+	line-height: 40px;
+	transition: .2s;
+}
+
+.project-info a:hover {
+	background-color: #AA076B;
+	color: #fff;
+}
+
+.project-img {
+	width: 50%;
+}
+
+.project-img img{
+	width: 100%;
+}
+
